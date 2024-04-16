@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+p {
+  border: 2px solid black;
+  border-radius: 35px;
+  padding: 20px;
+  margin: 20px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1.1em;
+  font-weight: bolder;
+  box-shadow: 3px 3px 10px black;
+  cursor: pointer;
+  background-color: #1613c2;
+  color: white;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  border: 3px solid black;
+  height: auto;
+  padding: 60px;
+  margin: 0px 10px 10px 80px;
+  box-shadow: 3px 3px 10px black;
+  background-color: rgba(213, 235, 218, 0.8);
+  border-radius: 35px;
+}
+
+.FeaturedPup {
+  border: 3px solid black;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 80px;
+  box-shadow: 3px 3px 10px black;
+  background-color: #1613c2;
+  color: white;
+}
+
+h2 {
+  font-family: Papyrus, fantasy;
+  font-size: 2.3em;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: papyrus, fantasy;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 10px;
+}
